@@ -14,19 +14,19 @@
                 <img src="img/logo.png" width="110" height="25" alt="Барбершоп">
               </a>
             </li>
-            <li  class="main-navigation-menu-info">
+            <li  class="main-navigation-menu-unit">
               <a href="#">Информация</a>
             </li>
-            <li class="main-navigation-menu-news">
+            <li class="main-navigation-menu-unit">
               <a href="#">Новости</a>
             </li>
-            <li class="main-navigation-menu-price-list">
+            <li class="main-navigation-menu-unit">
               <a href="#">Прайс-лист</a>
             </li>
-            <li class="main-navigation-menu-shop">
+            <li class="main-navigation-menu-unit">
               <a>Магазин</a>
             </li>
-            <li  class="main-navigation-menu-contacts">
+            <li  class="main-navigation-menu-unit">
               <a href="#">Контакты</a>
             </li>
           </ul>
@@ -37,44 +37,54 @@
       </div>
     </header>
 
-    <main class="conttainer">
+    <main class="container">
       <header class="header-page">
         <h2 class="page-title">Средства для ухода</h2>
         <ul class="pade-navigator">
-          <li class="pade-navigator-main">
+          <li class="pade-navigator-unit">
             <a href="#">Главная</a>
           </li>
-          <li class="pade-navigator-shop">
+          <li class="pade-navigator-unit">
             <a href="#">Магазин</a>
           </li>
-          <li class="pade-navigator-location">
+          <li class="pade-navigator-unit">
             <a>Средства для ухода</a>
           </li>
         </ul>
       </header>
-      <div class="left-column">
 
-        <section class="producer">
-           <h3>Производители</h3>
-           <form class="producer-list" action="https://echo.htmlacademy.ru" method="post">
-             <input type="checkbox" name="Baxter-of-California" id="Baxter-of-California-field" checked>
-             <label for="Baxter-of-California-field">Baxter of California</label>
-             <input type="checkbox" name="Mr-Natty" id="Mr-Natty-field">
-             <label for="Mr-Natty-field">Mr Natty</label>
-             <input type="checkbox" name="Suavecito" id="Suavecito-field" checked>
-             <label for="Suavecito-field">Suavecito</label>
-             <input type="checkbox" name="Malin+Goetz" id="Malin+Goetz-field">
-             <label for="Malin+Goetz-field">Malin+Goetz</label>
-             <input type="checkbox" name="Murray's" id="Murray's-field">
-             <label for="Murray's-field">Murray's</label>
-             <input type="checkbox" name="American-Crew" id="American-Crew-field" checked>
-             <label for="American-Crew-field">American Crew</label>
-           </form>
-         </section>
+      <div class="left-column">
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <section class="producer-list">
+            <h3>Производители</h3>
+            <label>
+              <input type="checkbox" name="Baxter-of-California" checked>
+              Baxter of California
+            </label>
+            <label>
+              <input type="checkbox" name="Mr-Natty">
+              Mr Natty
+            </label>
+            <label>
+              <input type="checkbox" name="Suavecito" checked>
+              Suavecito
+            </label>
+            <label>
+              <input type="checkbox" name="Malin+Goetz">
+              Malin+Goetz
+            </label>
+            <label>
+              <input type="checkbox" name="Murray's">
+              Murray's
+            </label>
+            <label>
+              <input type="checkbox" name="American-Crew" checked>
+              American Crew
+            </label>
+          </section>
 
          <section class="catalog-group">
            <h3>Группы товаров:</h3>
-           <form class="catalog-group-list" action="https://echo.htmlacademy.ru" method="post">
              <label>
                <input type="radio" name="catalog-group-item-list" value="shaving">
                Бритвенные принадлежности
@@ -87,11 +97,10 @@
                <input type="radio" name="catalog-group-item-list" value="accessories">
                Аксессуары
              </label>
-           </form>
          </section>
 
          <button class="btn" type="submit">Показать</button>
-
+       </form>
       </div>
 
       <div class="right-column">
@@ -106,7 +115,7 @@
           <div class="catalog-item-price">
             <b>2900 руб.</b>
             <a class="btn" href="#">Купить</a>
-          </div>          
+          </div>
         </article>
 
         <article class="catalog-item">
@@ -175,10 +184,10 @@
         </article>
 
         <div class="list-page">
-          <a href="#">1</a>
-          <a href="#">2</a>
-          <a href="#">3</a>
-          <a href="#">4</a>
+          <a class="list-page-number" href="#">1</a>
+          <a class="list-page-number" href="#">2</a>
+          <a class="list-page-number" href="#">3</a>
+          <a class="list-page-number" href="#">4</a>
         </div>
       </div>
     </main>
